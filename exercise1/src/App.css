@@ -1,0 +1,181 @@
+/*heading code starts here*/
+.App{
+  background-color: rgba(235,235,235);
+}
+.container{
+  margin: 0 auto;
+  width: 960px;
+  position: relative;
+  right:100px;
+}
+body{
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.titleblue{
+  background-color: rgb(0, 25, 76);
+}
+.TitleHeader{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.TitleSection{
+  color: white;
+  margin-right: 24px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+.SubHeader, .TitleHeader, .TitleMiscContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* align vertical */
+}
+.TitleMiscContainer{
+  position:absolute;
+  right: 0;
+}
+.TitleSection:last-child{
+  margin-right: 0;
+}
+.subwhite{
+  background-color: white;
+  border: 1px solid rgb(192,192,192);
+}
+.SubSection{
+  padding: 16px 25px 16px 0px;
+}
+.HSLogo{
+  background-image: url("hslogo.svg");
+  height: 24px;
+  width: 273px;
+  margin-right: 30px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.SubscriptionButton>div{
+  border-radius: 50px;
+  background-color: white;
+  color:black;
+  width:110px;
+  height:36px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+svg{
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+}
+.Boldened{
+  font-weight: 500;
+}
+path {
+  fill: white;
+}
+/*body code starts here*/
+.InlineTitle{
+  font-weight: 700;
+}
+.Notice{
+  box-sizing: border-box;
+  padding: 16px;
+  margin-bottom: 2px;
+  color: white;
+  background-color: rgba(65,150,164);
+}
+.Advert{
+  background-color: rgba(0,184,224);
+}
+.NoticeContainer{
+  margin-top: 16px;
+}
+.NewsBodyContainer{
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+}
+.NewsBlockContainer{
+  flex-grow: 2;
+}
+.NewsBlock{
+  font-family: 'DM Serif Text', serif;
+  font-size: 30px;
+  margin-bottom: 16px;
+  padding: 16px;
+  font-weight: 500;
+  background-color: white;
+}
+.pink{
+  color: #cb6aaa;
+}
+.scarlett{
+  color:#b7384b;
+}
+.NewsBlockTitle{
+  font-weight: 800;
+}
+.NewsBlockFooter{
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  margin-top: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  color: rgba(72,72,72,0.7);
+}
+.NewsBlockImageContainer{
+  margin-bottom: 15px;
+}
+img{
+  max-width: 100%;
+}
+.NewsBlockSVG{
+  position: absolute;
+  right: 0;
+  top:0;
+}
+.NewsBlockSVG>path{
+  fill: rgba(72,72,72,0.7)
+}
+.MostReadTopContainer{
+  background-color: white;
+  padding: 16px;
+  margin-left: 16px;
+  width: 100%;
+}
+.MostReadItemContainer{
+  position: relative;
+}
+.MostReadHeader{
+  font-family: 'DM Serif Text', serif;
+  font-weight: 900;
+  padding-bottom: 16px;
+  border-bottom: 0.8px solid;
+  font-size: 22px;
+}
+.MostRead {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(233,234,237);
+}
+.Rank{
+  color: rgba(65,150,164);
+  font-family: 'DM Serif Text', serif;
+  font-weight: 500;
+  font-size: 35px;
+  padding: 0px 16px 16px 16px;
+}
+.MostReadItemTopic{
+  font-weight: 700;
+}
+.MostReadContentContainer{
+  padding: 0px 0px 16px 10px;
+}
