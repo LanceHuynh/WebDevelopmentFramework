@@ -1,0 +1,5 @@
+exercise1: 1p, fully done
+exercise2: 1p, fully done
+exercise3: 1p, fully done
+exercise4: 0p
+exercise5: 0p
